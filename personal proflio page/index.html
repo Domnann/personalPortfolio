@@ -1,0 +1,114 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>team - form | Home</title>
+    <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
+    <!-- Remix icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Swiper.js styles -->
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/>
+    <!-- Custom styles -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+</head>
+
+
+  <body>
+    <header class='header ' id="header">
+        <nav class="navbar container ">
+          <a href="./index.html"  >
+            <h1 class="portfolio_name">Gambo Domnan</h1>
+          </a>
+          <div class="menu" id="menu">
+            <ul class="nav_list ">
+              <li class="list-item"><a href='#welcome-section' class='nav-link current'>Home</a></li> 
+              <li class="list-item"><a href='#about'class='nav-link'>About</a></li>
+              <li class="list-item"><a href='#skills'class='nav-link'>Skills</a></li> 
+              <li class="list-item"><a href='#projects'class='nav-link'>Projects</a></li>
+              <li class="list-item"><a href='#contact'class='nav-link'>Contact</a></li>
+            </ul>
+          </div class="list list-right">
+          <button class=" btn icon-box place-items-center menu-toggle-icon" id="menu-toggle-icon">
+            <i class="ri-menu-3-line open-menu-icon"></i>
+            <i class="ri-close-line close-menu-icon"></i>
+          </button>
+        </nav>
+    </header>
+
+    <section class="welcome-section container" id="welcome-section">
+      <p><em>Hi,</em></p>
+      <p><em>I'm a <br>Web Developer.<em></p>
+    </section>
+
+    <section class="about" id="about">
+      <h2 class="about-header">About Me</h2>
+      <img id= 'profile_picture' src="./images/portfolio_picture1.jpg" alt="portfolio picture" class="portfolio_picture" style="width:500px;height:600px;">
+      <p class="about-body"><br>I am an entry level web-developer based in Abuja,Nigeria. I have passion for web development and problem solving(using python and javascript), I am a full-stack developer, I have  strong intrest in learning new things and building projects.</p>
+      <button class="cv_button" onclick=" window.open('http://google.com','_blank')"><i class="fa fa-download" style="font-size:48px;">Download CV</i></button> 
+    </section>
+  
+    <section class="skills  part d-grid" id="skills">
+      <div class="item1 skills-header"><p><strong>Skills</strong></p></div>
+      <div class="item2 skills-body">
+        <h3>Front-End</h3>
+        <p>HTML5</p>
+        <p>CSS3</p>
+        <p>Javascript</p> 
+        <p>Bootstrap</p> 
+      </div>
+      <div class="item2 skills-body">
+        <h3>Back-End</h3>
+        <p>Python</p>
+        <p>SQLite3</p>
+      </div>
+      <div class="item3 skills-body">
+        <h3>Tools</h3>
+        <p>Git<p> 
+        <p>GitHub</p> 
+        <p>Netlify</p> 
+        <p>Selenium</p>
+        <p>API (REST, JSON)</p>
+      </div>  
+    </section >
+
+    <!-- !-- Swiper --> 
+    
+
+    
+  
+    <section class="contact part" id="contact">
+      <h4><br>You can contact me on:<br><br></h4>
+      <section>
+        <div class="label">
+            <a href="https://github.com/Domnann" target="_blank"><i class="fa fa-github" style="font-size:48px;"></i><br>github</a>
+        </div>
+        <div class="label">
+            <a href="https://www.linkedin.com/in/domnan-gambo/" target="_blank"><i class="fa fa-linkedin" style="font-size:48px;"></i><br>Linkedin</a>
+        </div>
+        <div class="label">
+            <a href="https://twitter.com/Dominic63773631" target="_blank"><i class="fa fa-twitter" style="font-size:48px;"></i><br>Twitter</a><br><br>
+        </div>
+      </section>
+      <section>
+        <div>
+          <a id=contact_profile href=#welcome-section><i class="fa fa-user-circle" style="font-size:48px;"></i>Name: Gambo Domnan Dominic</a>
+        </div>
+        <div>
+          <a id=contact_address href=https://www.google.com/maps/place/Wuse,+Abuja/@9.0703089,7.4393807,13z/data=!3m1!4b1!4m5!3m4!1s0x104e0afd946acf11:0x641c035f13845f8b!8m2!3d9.0746601!4d7.4760047><i class="fa fa-map-marker" style="font-size:48px;"></i>Address:Wuse, Abuja, Nigeria</a>
+        </div>
+        <div>
+          <a id=contact_email href=#><i class="fa fa-envelope-open" style="font-size:48px;"></i>Email: domnangambo@gmail.com</a><br><br>
+        </div>
+      </section>
+    </section>
+    <footer class="footer" id="footer">
+      <p>Created by <strong class:"color">Gambo Domnan</strong>|© 2022.</p>
+    </footer>
+    <!-- Swiper.js -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
